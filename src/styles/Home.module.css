@@ -1,0 +1,57 @@
+.searchBar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(45, 2, 81, 0.3);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  background-color: rgba(245, 215, 227, 0.3);
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.searchInput {
+  align-items: center;
+  height: 35px;
+  color: white;
+  margin-left: 5px;
+  background-color: #2d0251;
+  border: 1px solid rgba(45, 2, 81, 0.3);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 5px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: #f5d7e3;
+}
+
+.brands {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.brandList {
+  width: 100%;
+  background-color: rgba(245, 215, 227, 0.3);
+  border-right: 1px solid rgba(45, 2, 81, 0.3);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  text-transform: capitalize;
+}
